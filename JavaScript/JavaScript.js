@@ -1,4 +1,4 @@
 ﻿function saludo() {
-    alert("Hola puta");
+    alert("Hola Mundo");
 
 }
