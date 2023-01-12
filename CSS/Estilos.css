@@ -2,29 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Rubik-VariableFont_wght;
+    font-family:Mangabey;   
 }
-
-
-
-
 body {
     min-height: 100vh;
     overflow-x: hidden;
     background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
 }
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 80px 30px 50px;
+    display: flex;
+    object-fit: cover;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    width: 15vmax;
+    cursor:pointer;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: #0b020c;
+}
 
+nav ul li a:hover,
+nav ul li a.active {
+    background: #fce4ff;
+    color: #0b020c
+}
 
-@font-face {
-    font-family: 'Rubik-VariableFont_wght';
-    src: url('file:///C:\Users\Personal\Desktop\Curso web\Pagina-Web-Luisa\Fonts\Rubik-VariableFont_wght.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'Rubik-Italic-VariableFont_wght';
-    src: url('file:///C:\Users\Personal\Desktop\Curso web\Pagina-Web-Luisa\Fonts\Rubik-Italic-VariableFont_wght.ttf') format('truetype');
-}
-@font-face {
-    font-family: 'norwester.regular';
-    src: url('file:///C:\Users\Personal\Desktop\Curso web\Pagina-Web-Luisa\Fonts\norwester.regular.otf') format('opentype');
-}
 
